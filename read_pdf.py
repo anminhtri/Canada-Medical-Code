@@ -12,6 +12,3 @@ def readpdf(path, pages):
     for page in subset:
         text = np.append(text, page.extract_text())
     return text
-
-text = readpdf(path, pages)
-print(text[0])
