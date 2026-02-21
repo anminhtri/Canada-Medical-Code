@@ -1,0 +1,4144 @@
+[
+  {
+    "code": "1.AA.13",
+    "description": "Control of bleeding, meninges and dura mater of brain",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Control of bleeding, meninges of brain"
+    ],
+    "excludes": [
+      "Administration of systemic pharmacological agent (see 1.ZZ.35.^^)",
+      "Intra-arterial embolization (see 1.JW.51.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.13.HA-C2",
+        "approach": "N/A",
+        "description": "using percutaneous (needle) injection of antihemorrhagic agent [antifibrinolytic]",
+        "includes": [
+          "aminocaproic acid",
+          "aprotinin",
+          "phytonadione",
+          "thrombin",
+          "coagulation factor Vlll"
+        ]
+      },
+      {
+        "code": "1.AA.13.SE-C2",
+        "approach": "N/A",
+        "description": "using injection of antihemorrhagic agent into burr hole",
+        "includes": [
+          "aminocaproic acid",
+          "aprotinin",
+          "phytonadione",
+          "thrombin",
+          "coagulation factor Vlll"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "1.AA.35",
+    "description": "Pharmacotherapy (local), meninges and dura mater of brain",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Injection of pharmaceutical agent(s), meninges of brain",
+      "Instillation, pharmaceutical agent(s), meninges of brain"
+    ],
+    "excludes": [
+      "Systemic pharmacotherapy (see 1.ZZ.35.^^)",
+      "that for control of bleeding (see 1.AA.13.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.35.HA-C1",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antithrombotic agent using percutaneous [needle] approach",
+        "includes": [
+          "Includes:",
+          "warfarin, heparin, enoxaparin,",
+          "dipyridamole"
+        ]
+      },
+      {
+        "code": "1.AA.35.HH-C1",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antithrombotic agent using percutaneous transcatheter\napproach",
+        "includes": [
+          "Includes:",
+          "warfarin, heparin, enoxaparin,",
+          "dipyridamole"
+        ]
+      },
+      {
+        "code": "1.AA.35.HA-1C",
+        "approach": "percutaneous [needle] approach",
+        "description": "using thrombolytic agent using percutaneous [needle] approach",
+        "includes": [
+          "Includes:",
+          "anistreplase, alteplase,",
+          "retaplase, streptokinase,",
+          "tenecteplase, TNKase (TNK),",
+          "tissue plasminogen activator",
+          "(tPA), urokinase"
+        ]
+      },
+      {
+        "code": "1.AA.35.HH-1C",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using thrombolytic agent using percutaneous transcatheter\napproach",
+        "includes": [
+          "Includes:",
+          "anistreplase, alteplase,",
+          "retaplase, streptokinase,",
+          "tenecteplase, TNKase (TNK),",
+          "tissue plasminogen activator",
+          "(tPA), urokinase"
+        ]
+      },
+      {
+        "code": "1.AA.35.HA-K0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antiinfective agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.35.HH-K0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antiinfective agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.35.HA-M0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antineoplastic agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.35.HH-M0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antineoplastic agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.35.HA-T9",
+        "approach": "percutaneous [needle] approach",
+        "description": "using other pharmacological agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.35.HH-T9",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using other pharmacological agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.52",
+    "description": "Drainage, meninges and dura mater of brain S 4",
+    "note": [],
+    "code_also": [
+      "Any concomitant removal of old subdural shunt system (see 1.AA.55.^^)",
+      "Any intraoperative stereotactic or computer guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Decompression, intracranial",
+      "Drainage [abscess, hematoma], epidural or subdural, brain",
+      "Evacuation [abscess, hematoma], meninges of brain",
+      "Puncture, anterior fontanelle [for decompression]",
+      "Puncture, cranial NOS [for decompression]",
+      "Replacement of entire shunt system, meninges and dura mater of brain [e.g. subdural-peritoneal]",
+      "Shunt, subdural-peritoneal",
+      "Tap, subdural [for decompression]"
+    ],
+    "excludes": [
+      "Partial \"revision\" for maintenance of subdural shunt system (see 1.AA.54.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.52.SZ",
+        "approach": "open craniotomy/craniectomy\nflap approach",
+        "description": "drainage alone [without catheter in situ] using open craniotomy/craniectomy\nflap approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SE",
+        "approach": "burr hole technique",
+        "description": "drainage alone [without catheter in situ] using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.HA",
+        "approach": "percutaneous approach (e.g. by\nneedle or through fontanelle)",
+        "description": "drainage alone [without catheter in situ] using percutaneous approach (e.g. by\nneedle or through fontanelle)",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SZ-AZ",
+        "approach": "open craniotomy/craniectomy\nflap approach",
+        "description": "ultrasonic device [CUSA] using open craniotomy/craniectomy\nflap approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SE-AZ",
+        "approach": "burr hole technique",
+        "description": "ultrasonic device [CUSA] using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SZ-TS",
+        "approach": "open craniotomy/craniectomy\nflap approach",
+        "description": "leaving drainage tube [catheter] in situ using open craniotomy/craniectomy\nflap approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SE-TS",
+        "approach": "burr hole technique",
+        "description": "leaving drainage tube [catheter] in situ using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.ME-SJ",
+        "approach": "open craniotomy/craniectomy\nflap approach",
+        "description": "shunt terminating in abdominal cavity (e.g. peritoneum) using open craniotomy/craniectomy\nflap approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SZ-NC",
+        "approach": "open craniotomy/craniectomy\nflap approach",
+        "description": "negative pressure device (e.g. vacuum system) using open craniotomy/craniectomy\nflap approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.52.SE-NC",
+        "approach": "burr hole technique",
+        "description": "negative pressure device (e.g. vacuum system) using burr hole technique",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.53",
+    "description": "Implantation of internal device, meninges and dura mater of brain S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Implantation, pressure monitoring device, subdural space"
+    ],
+    "excludes": [
+      "Implantation, pressure monitoring device, intracranial NOS (see 1.AC.53.^^)",
+      "Implantation, pressure monitoring device, intraparenchymal (see 1.AN.53.^^)",
+      "Implantation, pressure monitoring device, intraventricular (see 1.AC.53.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.53.SE-PL",
+        "approach": "N/A",
+        "description": "of pressure monitoring device using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AA.53.SZ-PL",
+        "approach": "N/A",
+        "description": "of pressure monitoring device using open craniotomy [craniectomy] flap approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.54",
+    "description": "Management of internal device, meninges and dura mater of brain S 4",
+    "note": [
+      "May involve adding, changing, repositioning or lengthening catheters; aspirating reservoirs; changing valves or correcting valve",
+      "configurations."
+    ],
+    "code_also": [],
+    "includes": [
+      "Irrigation, ligation or adjustment of drainage tube of meninges and dura mater of brain",
+      "Maintenance of drainage tube of meninges and dura mater of brain",
+      "Partial revision of subdural shunt system",
+      "Revision of drainage tube of meninges and dura mater of brain"
+    ],
+    "excludes": [
+      "Complete removal with replacement of a drainage tube (see 1.AA.52.^^)",
+      "Complete removal with replacement of a new subdural shunt system (see 1.AA.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.54.HA-TS",
+        "approach": "N/A",
+        "description": "irrigation drainage tube [catheter], percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.54.ME-SJ",
+        "approach": "N/A",
+        "description": "shunt system terminating in the abdominal cavity (e.g. peritoneum), open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AA.54.MP-SJ",
+        "approach": "N/A",
+        "description": "shunt system terminating in other site, open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.55",
+    "description": "Removal of device, meninges and dura mater of brain",
+    "note": [],
+    "code_also": [],
+    "includes": [],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.55.SE-TS",
+        "approach": "N/A",
+        "description": "of drainage tube [catheter] using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AA.55.SZ-PL",
+        "approach": "N/A",
+        "description": "of pressure monitoring device using open craniotomy flap approach",
+        "includes": [
+          "Removal",
+          "pressure monitoring device",
+          "subdural space"
+        ]
+      },
+      {
+        "code": "1.AA.55.SZ-SJ",
+        "approach": "N/A",
+        "description": "of shunt system using open craniotomy flap approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.80",
+    "description": "Repair, meninges and dura mater of brain S 5",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Duraplasty of brain",
+      "Graft, dura of brain",
+      "Repair, dura of brain"
+    ],
+    "excludes": [
+      "repair, fistula, intracranium (see 1.AB.86.^^)",
+      "that with resection of dura or meninges (see 1.AA.87.^^)"
+    ],
+    "omit_code": [
+      "when dura has been incised to access surgical site and is subsequently just sutured closed (this is an integral part of the definitive",
+      "intervention)"
+    ],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A",
+          "R"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.80.SZ",
+        "approach": "N/A",
+        "description": "using apposition technique [e.g. suture]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.80.SZ-W3",
+        "approach": "N/A",
+        "description": "using fibrin [glue]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.80.SZ-XX-A",
+        "approach": "N/A",
+        "description": "using autograft [e.g. pericranium, fascia lata]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.80.SZ-XX-K",
+        "approach": "N/A",
+        "description": "using homograft [e.g. freeze dried donor dura]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.80.SZ-XX-L",
+        "approach": "N/A",
+        "description": "using xenograft [e.g. bovine]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.80.SZ-XX-N",
+        "approach": "N/A",
+        "description": "using synthetic tissue substitute [Silastic sheath]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AA.87",
+    "description": "Excision partial, meninges and dura mater of brain S 4",
+    "note": [],
+    "code_also": [
+      "Any concomitant (or subsequent) hematoma drainage, epidural or subdural, brain (see 1.AA.52.^^)"
+    ],
+    "includes": [
+      "Decortication, meninges",
+      "Excision [neoplasm], meninges and dura mater of brain",
+      "Resection, meninges (with or without concomitant duraplasty)",
+      "Stripping, subdural membrane"
+    ],
+    "excludes": [
+      "that extending into (or involving) cranium (see 1.EA.92.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AA.87.SZ",
+        "approach": "N/A",
+        "description": "using apposition technique [e.g. suture]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.87.SZ-XX-A",
+        "approach": "N/A",
+        "description": "using autograft [e.g. pericranium, fascia lata]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.87.SZ-XX-K",
+        "approach": "N/A",
+        "description": "using homograft [e.g. freeze dried donor dura]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.87.SZ-XX-L",
+        "approach": "N/A",
+        "description": "using xenograft [e.g. bovine]",
+        "includes": []
+      },
+      {
+        "code": "1.AA.87.SZ-XX-N",
+        "approach": "N/A",
+        "description": "using synthetic tissue substitute [Silastic sheath]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AB.35",
+    "description": "Pharmacotherapy (local), subarachnoid",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Injection of pharmaceutical agent(s), subarachnoid space",
+      "Instillation, agent(s), intrathecal (brain)"
+    ],
+    "excludes": [
+      "Instillation, agent(s), intrathecal (spine) (see 1.AX.35.^^)",
+      "Systemic pharmacotherapy (see 1.ZZ.35.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.35.HA-C1",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antithrombotic agent using percutaneous [needle] approach",
+        "includes": [
+          "Includes:",
+          "warfarin, heparin, enoxaparin,",
+          "dipyridamole"
+        ]
+      },
+      {
+        "code": "1.AB.35.HH-C1",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antithrombotic agent using percutaneous transcatheter\napproach",
+        "includes": [
+          "Includes:",
+          "warfarin, heparin, enoxaparin,",
+          "dipyridamole"
+        ]
+      },
+      {
+        "code": "1.AB.35.HA-1C",
+        "approach": "percutaneous [needle] approach",
+        "description": "using thrombolytic agent using percutaneous [needle] approach",
+        "includes": [
+          "Includes:",
+          "anistreplase, alteplase,",
+          "retaplase, streptokinase,",
+          "tenecteplase, TNKase (TNK),",
+          "tissue plasminogen activator",
+          "(tPA), urokinase"
+        ]
+      },
+      {
+        "code": "1.AB.35.HH-1C",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using thrombolytic agent using percutaneous transcatheter\napproach",
+        "includes": [
+          "Includes:",
+          "anistreplase, alteplase,",
+          "retaplase, streptokinase,",
+          "tenecteplase, TNKase (TNK),",
+          "tissue plasminogen activator",
+          "(tPA), urokinase"
+        ]
+      },
+      {
+        "code": "1.AB.35.HA-K0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antiinfective agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.35.HH-K0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antiinfective agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.35.HA-M0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antineoplastic agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.35.HH-M0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antineoplastic agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.35.HA-T9",
+        "approach": "percutaneous [needle] approach",
+        "description": "using other pharmacological agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.35.HH-T9",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using other pharmacological agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AB.52",
+    "description": "Drainage, subarachnoid S 4",
+    "note": [],
+    "code_also": [
+      "Any concomitant removal of old (sub)arachnoid shunt system (see 1.AB.55.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Aspiration, subarachnoid [cyst, hematoma]",
+      "Drainage, subarachnoid [cyst, hematoma]",
+      "Replacement of entire shunt system, (sub)arachnoid",
+      "Shunt, arachnoid",
+      "Tap, cisternal [for CSF drainage]",
+      "Tap, subarachnoid [for CSF drainage]"
+    ],
+    "excludes": [
+      "Partial \"revision\" for maintenance of subarachnoid shunt system (see 1.AB.54.^^)",
+      "that with excision of subarachnoid cyst (see 1.AB.87.^^)",
+      "that with insertion of syringosubarachnoid shunt catheter [for syringomyelia] (see 1.AP.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.52.SE",
+        "approach": "burr hole technique",
+        "description": "drainage alone [without catheter in situ] using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.DA",
+        "approach": "endoscopic [neuroendoscopic]\napproach",
+        "description": "drainage alone [without catheter in situ] using endoscopic [neuroendoscopic]\napproach",
+        "includes": [
+          "Includes:",
+          "Burr hole endoscopic",
+          "fenestration of subarachnoid",
+          "cyst"
+        ]
+      },
+      {
+        "code": "1.AB.52.SZ",
+        "approach": "using craniotomy or\ncraniectomy (flap) approach",
+        "description": "drainage alone [without catheter in situ] using using craniotomy or\ncraniectomy (flap) approach",
+        "includes": [
+          "Includes:",
+          "Open fenestration of",
+          "subarachnoid cyst"
+        ]
+      },
+      {
+        "code": "1.AB.52.SE-TS",
+        "approach": "burr hole technique",
+        "description": "leaving drainage tube [catheter] in situ using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.DA-TS",
+        "approach": "endoscopic [neuroendoscopic]\napproach",
+        "description": "leaving drainage tube [catheter] in situ using endoscopic [neuroendoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.GN-SJ",
+        "approach": "endoscopic [neuroendoscopic]\napproach",
+        "description": "shunt terminating in abdominal cavity [e.g. cystoperitoneal] using endoscopic [neuroendoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.ME-SJ",
+        "approach": "using craniotomy or\ncraniectomy (flap) approach",
+        "description": "shunt terminating in abdominal cavity [e.g. cystoperitoneal] using using craniotomy or\ncraniectomy (flap) approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.GI-SJ",
+        "approach": "endoscopic [neuroendoscopic]\napproach",
+        "description": "shunt terminating in circulatory system [e.g. cystoatrial] using endoscopic [neuroendoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.MF-SJ",
+        "approach": "using craniotomy or\ncraniectomy (flap) approach",
+        "description": "shunt terminating in circulatory system [e.g. cystoatrial] using using craniotomy or\ncraniectomy (flap) approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.GJ-SJ",
+        "approach": "endoscopic [neuroendoscopic]\napproach",
+        "description": "shunt terminating in thoracic cavity [e.g. cystopleural] using endoscopic [neuroendoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.52.MQ-SJ",
+        "approach": "using craniotomy or\ncraniectomy (flap) approach",
+        "description": "shunt terminating in thoracic cavity [e.g. cystopleural] using using craniotomy or\ncraniectomy (flap) approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AB.54",
+    "description": "Management of internal device, subarachnoid S 4",
+    "note": [
+      "May involve adding, changing, repositioning or lengthening catheters; aspirating reservoirs; changing valves or correcting valve",
+      "configurations."
+    ],
+    "code_also": [],
+    "includes": [
+      "Maintenance of subarachnoid shunt system",
+      "Partial revision of subarachnoid shunt system"
+    ],
+    "excludes": [
+      "Complete removal with replacement of a new subarachnoid shunt system (see 1.AB.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.54.HA-TS",
+        "approach": "N/A",
+        "description": "of drainage tube [catheter]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.54.ME-SJ",
+        "approach": "N/A",
+        "description": "of shunt system terminating in abdominal cavity [e.g. cystoperitoneal]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.54.MF-SJ",
+        "approach": "N/A",
+        "description": "of shunt terminating in circulatory system [e.g. cystoatrial]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.54.MQ-SJ",
+        "approach": "N/A",
+        "description": "of shunt system terminating in thoracic cavity [e.g. cystopleural]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AB.55",
+    "description": "Removal of device, subarachnoid S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Removal, shunt catheter system, subarachnoid"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.55.SE-TS",
+        "approach": "N/A",
+        "description": "of drainage tube [catheter] using burr hole access",
+        "includes": []
+      },
+      {
+        "code": "1.AB.55.SZ-SJ",
+        "approach": "N/A",
+        "description": "of shunt catheter system using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AB.86",
+    "description": "Closure of fistula, subarachnoid S 5",
+    "note": [],
+    "code_also": [
+      "Any concomitant insertion of shunt system (see 1.AC.52.^^)"
+    ],
+    "includes": [
+      "Repair, fistula, CSF of brain"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A",
+          "R"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.86.MB",
+        "approach": "using apposition\ntechnique [e.g. suture]",
+        "description": "for fistula terminating at skin using using apposition\ntechnique [e.g. suture]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MB-XX-A",
+        "approach": "using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "description": "for fistula terminating at skin using using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MB-W3",
+        "approach": "using fibrin [glue]",
+        "description": "for fistula terminating at skin using using fibrin [glue]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MS",
+        "approach": "using apposition\ntechnique [e.g. suture]",
+        "description": "for fistula terminating in ear using using apposition\ntechnique [e.g. suture]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MS-XX-A",
+        "approach": "using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "description": "for fistula terminating in ear using using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MS-W3",
+        "approach": "using fibrin [glue]",
+        "description": "for fistula terminating in ear using using fibrin [glue]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MJ",
+        "approach": "using apposition\ntechnique [e.g. suture]",
+        "description": "for fistula terminating in head and neck [e.g. subdural space] using using apposition\ntechnique [e.g. suture]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MJ-XX-A",
+        "approach": "using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "description": "for fistula terminating in head and neck [e.g. subdural space] using using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.MJ-W3",
+        "approach": "using fibrin [glue]",
+        "description": "for fistula terminating in head and neck [e.g. subdural space] using using fibrin [glue]",
+        "includes": []
+      },
+      {
+        "code": "1.AB.86.ML",
+        "approach": "using apposition\ntechnique [e.g. suture]",
+        "description": "for fistula terminating in nasal (oral) cavity using using apposition\ntechnique [e.g. suture]",
+        "includes": [
+          "Includes:",
+          "Repair of nasal sinus",
+          "for CSF leak"
+        ]
+      },
+      {
+        "code": "1.AB.86.ML-XX-A",
+        "approach": "using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "description": "for fistula terminating in nasal (oral) cavity using using autograft [e.g. fascia\nlata, pericranium, fat, muscle\nor bone]",
+        "includes": [
+          "Includes:",
+          "Repair of nasal sinus for CSF",
+          "leak"
+        ]
+      },
+      {
+        "code": "1.AB.86.ML-W3",
+        "approach": "using fibrin [glue]",
+        "description": "for fistula terminating in nasal (oral) cavity using using fibrin [glue]",
+        "includes": [
+          "Includes:",
+          "Repair of nasal sinus for",
+          "CSF leak"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "1.AB.87",
+    "description": "Excision partial, subarachnoid S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative image assistance (see 3.AN.94.^^)",
+      "1.AC.^^.^^ Therapeutic Interventions on the Ventricles of Brain"
+    ],
+    "includes": [
+      "Enucleation [cyst], basal cistern",
+      "Enucleation [cyst], subarachnoid",
+      "Excision, subarachnoid [cyst, hematoma]",
+      "Resection, subarachnoid [cyst, hematoma]"
+    ],
+    "excludes": [
+      "Enucleation [cyst], posterior fossa (see 1.AC.87.^^)",
+      "Enucleation [cyst], suprasellar (see 1.AC.87.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AB.87.SE-GX",
+        "approach": "burr hole approach",
+        "description": "with device NEC using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.87.SZ-GX",
+        "approach": "open approach",
+        "description": "with device NEC using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.87.SE-AG",
+        "approach": "burr hole approach",
+        "description": "with laser using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.87.SZ-AG",
+        "approach": "open approach",
+        "description": "with laser using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.87.SE-AZ",
+        "approach": "burr hole approach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AB.87.SZ-AZ",
+        "approach": "open approach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.27",
+    "description": "Radiation, ventricles of brain",
+    "note": [
+      "Involves use of a stereotactical frame for positioning during delivery of external focused beam [or gamma \"knife\"] radiation to obliterate or",
+      "shrink tumour within ventricle of the brain."
+    ],
+    "code_also": [],
+    "includes": [
+      "Radiosurgery (stereotactic), ventricle(s) of brain"
+    ],
+    "excludes": [
+      "Destruction (lesion) using radiofrequency probe through a cranial incision (see 1.AC.59.^^)",
+      "Fractionated stereotactic radiotherapy, ventricles of brain (see 1.AN.27.^^)",
+      "Radiotherapy not using focused beam radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.35",
+    "description": "Pharmacotherapy (local), ventricles of brain",
+    "note": [],
+    "code_also": [
+      "Any insertion of catheter for infusion (see 1.AC.53.^^)"
+    ],
+    "includes": [
+      "Instillation, pharmaceutical agent(s), ventricles of brain",
+      "that by previously inserted catheter"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.35.HH-1C",
+        "approach": "N/A",
+        "description": "percutaneous transcatheter approach using thrombolytic agent",
+        "includes": [
+          "anistreplase",
+          "alteplase",
+          "retaplase",
+          "streptokinase",
+          "tenecteplase",
+          "TNKase (TNK)",
+          "tissue plasminogen activator (tPA)"
+        ]
+      },
+      {
+        "code": "1.AC.35.HH-T9",
+        "approach": "N/A",
+        "description": "percutaneous transcatheter approach using other pharmacological agent NEC",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.50",
+    "description": "Dilation, ventricles of brain S 4",
+    "note": [
+      "Stent is placed in foramen or aqueduct [to maintain dilation] and terminates in subarachnoid space of spinal cord"
+    ],
+    "code_also": [
+      "Any concomitant cervical laminectomy [C3-C7] (see 1.SC.80.^^)",
+      "Any concomitant dural graft for closure (see 1.AA.80.^^)",
+      "Any concomitant laminectomy of atlas, axis [C1-C2 with or without C3] (see 1.SA.80.^^)"
+    ],
+    "includes": [
+      "Dilation, foramen of brain",
+      "Dilation, ventricular",
+      "Insertion, stent, aqueduct of Sylvius[for dilation and drainage]"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.50.DA-NR",
+        "approach": "N/A",
+        "description": "using endoscopic [ventriculoscopic) approach and stent",
+        "includes": []
+      },
+      {
+        "code": "1.AC.50.SE-NR",
+        "approach": "N/A",
+        "description": "using open approach with burr hole technique and stent",
+        "includes": []
+      },
+      {
+        "code": "1.AC.50.SZ-NR",
+        "approach": "N/A",
+        "description": "using open approach with craniotomy [craniectomy] flap technique and stent",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.52",
+    "description": "Drainage, ventricles of brain S 4",
+    "note": [],
+    "code_also": [
+      "Any concomitant removal of old shunt system (see 1.AC.55.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Aspiration [cyst], ventricle",
+      "Drainage, CSF, ventricles of brain",
+      "Enlargement of aqueduct [to unblock occlusion for drainage]",
+      "Puncture, septum pellucidum for drainage (into ventricle)",
+      "Replacement of entire shunt system, ventricles of brain",
+      "Shunt, ventricular",
+      "Shunt, ventriculoatrial",
+      "Shunt, ventriculoperitoneal",
+      "Shunt, ventriculopleural",
+      "Shunt, ventriculosubgaleal",
+      "Ventriculopuncture [for continuous CSF drainage]",
+      "Ventriculostomy NEC"
+    ],
+    "excludes": [
+      "Dilation, foramen [of Magendie] with stent placement (see 1.AC.50.^^)",
+      "Partial \"revision\" for maintenance of ventricular shunt system (see 1.AC.54.^^)",
+      "Partial \"revision\" for maintenance of ventriculoatrial shunt system (see 1.AC.54.^^)",
+      "Partial \"revision\" for maintenance of ventriculoperitoneal shunt system (see 1.AC.54.^^)",
+      "Partial \"revision\" for maintenance of ventriculopleural shunt system (see 1.AC.54.^^)",
+      "Shunt, lumboperitoneal (see 1.AX.52.^^)",
+      "Shunt, syringopleural or syringoperitoneal (see 1.AP.52.^^)",
+      "Shunt, thecal (see 1.AX.52.^^)",
+      "Ventricular aspiration of pituitary region (for craniopharyngioma cyst) (see 1.AF.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.52.SZ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "drainage without shunt or catheter left in situ using craniotomy or craniectomy\n[flap] approach",
+        "includes": [
+          "Includes:",
+          "Open fenestration of cyst"
+        ]
+      },
+      {
+        "code": "1.AC.52.SE",
+        "approach": "burr hole technique",
+        "description": "drainage without shunt or catheter left in situ using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.DA",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "drainage without shunt or catheter left in situ using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": [
+          "Includes:",
+          "burr hole endoscopic",
+          "fenestration of cyst"
+        ]
+      },
+      {
+        "code": "1.AC.52.HA",
+        "approach": "percutaneous (via needle through\nfontanel) approach",
+        "description": "drainage without shunt or catheter left in situ using percutaneous (via needle through\nfontanel) approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.MB-SJ",
+        "approach": "burr hole technique",
+        "description": "drainage to skin (of head) with catheter or shunt (temporarily) left in situ using burr hole technique",
+        "includes": [
+          "Includes:",
+          "Insertion, Ommaya",
+          "reservoir",
+          "that with implantation of",
+          "intracranial pressure",
+          "monitoring device",
+          "Excludes:",
+          "Percutaneous aspiration",
+          "of CSF from Ommaya",
+          "reservoir (see 1.AC.54.^^)",
+          "Code Also:",
+          "Any monitoring of",
+          "intracranial pressure",
+          "performed following",
+          "insertion of drainage",
+          "device (see 2.AN.28.^^)"
+        ]
+      },
+      {
+        "code": "1.AC.52.DA-SJ",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "drainage to skin (of head) with catheter or shunt (temporarily) left in situ using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": [
+          "Includes:",
+          "Burr hole endoscopic",
+          "fenestration of cyst with",
+          "drainage tube left in situ"
+        ]
+      },
+      {
+        "code": "1.AC.52.ME-SJ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "shunt terminating in abdominal cavity [e.g. ventriculoperitoneal or ventriculobiliary] using craniotomy or craniectomy\n[flap] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.GN-SJ",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "shunt terminating in abdominal cavity [e.g. ventriculoperitoneal or ventriculobiliary] using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.MF-SJ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "shunt terminating in circulatory system [e.g. ventriculoatrial] using craniotomy or craniectomy\n[flap] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.GI-SJ",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "shunt terminating in circulatory system [e.g. ventriculoatrial] using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.MJ-SJ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "shunt terminating in head and neck [e.g. cisterna magna or Torkildsen shunt] using craniotomy or craniectomy\n[flap] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.MP-SJ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "shunt terminating in other site using craniotomy or craniectomy\n[flap] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.GK-SJ",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "shunt terminating in other site using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.MQ-SJ",
+        "approach": "craniotomy or craniectomy\n[flap] approach",
+        "description": "shunt terminating in thoracic cavity [e.g. ventriculopleural] using craniotomy or craniectomy\n[flap] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.52.GJ-SJ",
+        "approach": "endoscopic\n[ventriculoscopic]\napproach",
+        "description": "shunt terminating in thoracic cavity [e.g. ventriculopleural] using endoscopic\n[ventriculoscopic]\napproach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.53",
+    "description": "Implantation of internal device, ventricles of brain",
+    "note": [],
+    "code_also": [
+      "Any monitoring of intracranial pressure performed following implantation of pressure monitoring device (see 2.AN.28.^^)"
+    ],
+    "includes": [
+      "Implantation, catheter, ventricles of brain [for chemical palliative infusion e.g. Ommaya reservoir]",
+      "Implantation, pressure measuring/ monitoring device, intracranial NOS",
+      "Implantation, pressure measuring/ monitoring device, ventricles of brain"
+    ],
+    "excludes": [
+      "Implantation of intracranial pressure monitoring device concomitant with external ventricular drainage (EVD) (see 1.AC.52.^^)",
+      "Implantation, catheter, brain [into cyst or tumor] (see 1.AN.53.^^)",
+      "Implantation, catheter, spinal canal and meninges (see 1.AX.53.^^)",
+      "Implantation, pressure measuring/ monitoring device, intraparenchymal (see 1.AN.53.^^)",
+      "Implantation, pressure measuring/monitoring device, subdural space (see 1.AA.53.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.53.DA-PL",
+        "approach": "N/A",
+        "description": "of pressure measuring/monitoring device using endoscopic [ventriculoscopic] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.53.SE-FT",
+        "approach": "N/A",
+        "description": "of [semipermeable] catheter [for chemical palliative infusion] using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AC.53.SZ-FT",
+        "approach": "N/A",
+        "description": "of [semipermeable] catheter [for chemical palliative infusion] using open craniotomy [or craniectomy] flap technique",
+        "includes": []
+      },
+      {
+        "code": "1.AC.53.SZ-PL",
+        "approach": "N/A",
+        "description": "of pressure measuring/monitoring device using open craniotomy/craniectomy [flap] technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.54",
+    "description": "Management of internal device, ventricles of brain",
+    "note": [
+      "May involve adding, changing, repositioning or lengthening catheters; aspirating reservoirs; changing valves or correcting valve",
+      "configurations."
+    ],
+    "code_also": [],
+    "includes": [
+      "Irrigation, ligation or adjustment of (part of) ventricular shunt system of brain",
+      "Maintenance of ventricular shunt system of brain",
+      "Partial revision of ventricular shunt system of brain"
+    ],
+    "excludes": [
+      "Complete removal with replacement of a new ventricular shunt system (see 1.AC.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.54.HA-TS",
+        "approach": "N/A",
+        "description": "using percutaneous [needle] approach irrigation of drainage tube [catheter]",
+        "includes": [
+          "Percutaneous aspiration of CSF from the Ommaya reservoir"
+        ]
+      },
+      {
+        "code": "1.AC.54.JA-SJ",
+        "approach": "N/A",
+        "description": "using external adjustment of (flow) (programmable) valves of (any) shunt system",
+        "includes": [
+          "Adjustment or reprogramming",
+          "valves of shunt system using magnetic wand"
+        ]
+      },
+      {
+        "code": "1.AC.54.ME-SJ",
+        "approach": "N/A",
+        "description": "using open approach shunt system terminating in abdominal cavity [e.g. ventriculoperitoneal, gallbladder]",
+        "includes": []
+      },
+      {
+        "code": "1.AC.54.MF-SJ",
+        "approach": "N/A",
+        "description": "using open approach shunt system terminating in circulatory system [e.g. ventriculoatrial]",
+        "includes": []
+      },
+      {
+        "code": "1.AC.54.MJ-SJ",
+        "approach": "N/A",
+        "description": "using open approach shunt system terminating in head and neck [e.g. cisterna magna, Torkildsen's shunt]",
+        "includes": []
+      },
+      {
+        "code": "1.AC.54.MP-SJ",
+        "approach": "N/A",
+        "description": "using open approach shunt system terminating in other site",
+        "includes": []
+      },
+      {
+        "code": "1.AC.54.MQ-SJ",
+        "approach": "N/A",
+        "description": "using open approach shunt system terminating in thoracic cavity [e.g. ventriculopleural]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.55",
+    "description": "Removal of device, ventricles of brain S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Removal, shunt catheter system, ventricles of brain",
+      "Removal, stent, ventricles of brain"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.55.SZ-PL",
+        "approach": "open approach",
+        "description": "of pressure measuring/ monitoring device using craniotomy access using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.55.SZ-SJ",
+        "approach": "open approach",
+        "description": "of shunt catheter system using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.55.DA-NR",
+        "approach": "endoscopic approach",
+        "description": "of stent using burr hole access using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.55.SE-NR",
+        "approach": "open approach",
+        "description": "of stent using burr hole access using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.59",
+    "description": "Destruction, ventricles of brain S 4 L 10",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Coagulation, choroid plexus",
+      "Destruction, choroid plexus",
+      "Neoplasm within ventricles of brain"
+    ],
+    "excludes": [
+      "Radiation, ventricle of brain (see 1.AC.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "V3",
+          "V4"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.59.SZ-AW",
+        "approach": "open approach with craniotomy\n[craniectomy] flap technique",
+        "description": "using radiofrequency probe using open approach with craniotomy\n[craniectomy] flap technique",
+        "includes": []
+      },
+      {
+        "code": "1.AC.59.DA-AW",
+        "approach": "endoscopic approach",
+        "description": "using radiofrequency probe using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.59.SZ-AG",
+        "approach": "open approach with craniotomy\n[craniectomy] flap technique",
+        "description": "using laser using open approach with craniotomy\n[craniectomy] flap technique",
+        "includes": [
+          "Includes:",
+          "Laser interstitial thermal therapy",
+          "[LITT]"
+        ]
+      },
+      {
+        "code": "1.AC.59.DA-AG",
+        "approach": "endoscopic approach",
+        "description": "using laser using endoscopic approach",
+        "includes": [
+          "Includes:",
+          "Laser interstitial thermal therapy",
+          "[LITT]"
+        ]
+      },
+      {
+        "code": "1.AC.59.SZ-GX",
+        "approach": "open approach with craniotomy\n[craniectomy] flap technique",
+        "description": "using device NEC using open approach with craniotomy\n[craniectomy] flap technique",
+        "includes": []
+      },
+      {
+        "code": "1.AC.59.DA-GX",
+        "approach": "endoscopic approach",
+        "description": "using device NEC using endoscopic approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AC.87",
+    "description": "Excision partial, ventricles of brain S 4 L 10",
+    "note": [],
+    "code_also": [
+      "Any concomitant ventricular shunt for continuous drainage (see 1.AC.52.^^)",
+      "Any intraoperative microscope assistance (see 3.AN.94.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Debulking [neoplasm], ventricles of brain",
+      "Enucleation [cyst], posterior fossa",
+      "Enucleation [cyst], suprasellar",
+      "Plexectomy, choroid",
+      "Resection [neoplasm], ventricles of brain",
+      "Resection, posterior fossa [neoplasm] extending into ventricle"
+    ],
+    "excludes": [
+      "Enucleation, subarachnoid [or basal cistern] cyst (see 1.AB.87.^^)",
+      "Resection of neoplasm arising in ventricles but extending into brain stem (see 1.AP.87.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "V3",
+          "V4"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AC.87.DA-GX",
+        "approach": "endoscopic approach",
+        "description": "with device NEC using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.87.SZ-GX",
+        "approach": "open approach",
+        "description": "with device NEC using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.87.DA-AG",
+        "approach": "endoscopic approach",
+        "description": "with laser using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.87.SZ-AG",
+        "approach": "open approach",
+        "description": "with laser using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.87.DA-AZ",
+        "approach": "endoscopic approach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AC.87.SZ-AZ",
+        "approach": "open approach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.09",
+    "description": "Stimulation, thalamus and basal ganglia",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Activation of surgically implanted stimulator, thalamus",
+      "that for control of pain"
+    ],
+    "excludes": [
+      "Implantation of stimulating device into thalamus (see 1.AE.53.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.09.JA-QQ",
+        "approach": "N/A",
+        "description": "using remote radio transmitter",
+        "includes": []
+      },
+      {
+        "code": "1.AE.09.JH-ED",
+        "approach": "N/A",
+        "description": "using external manual activation of implanted stimulator",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.27",
+    "description": "Radiation, thalamus and basal ganglia",
+    "note": [
+      "Involves the use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation."
+    ],
+    "code_also": [],
+    "includes": [
+      "Radiosurgery (stereotactic), thalamus"
+    ],
+    "excludes": [
+      "Destruction (lesion) using radiofrequency probe through cranial incision (see 1.AE.59.^^)",
+      "Fractionated stereotactic radiotherapy, thalamus and basal ganglia (see 1.AN.27.^^)",
+      "Radiotherapy not using focused beam radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.35",
+    "description": "Pharmacotherapy (local), thalamus and basal ganglia",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Instillation, agent",
+      "that by previously inserted catheter"
+    ],
+    "excludes": [
+      "Irrigation of previously installed catheter (see 1.AE.54.^^)",
+      "Systemic pharmacotherapy (see 1.ZZ.35.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.35.HA-K0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antiinfective agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.35.HH-K0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antiinfective agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.35.HA-M0",
+        "approach": "percutaneous [needle] approach",
+        "description": "using antineoplastic agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.35.HH-M0",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using antineoplastic agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.35.HA-T9",
+        "approach": "percutaneous [needle] approach",
+        "description": "using other pharmacological agent NEC using percutaneous [needle] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.35.HH-T9",
+        "approach": "percutaneous transcatheter\napproach",
+        "description": "using other pharmacological agent NEC using percutaneous transcatheter\napproach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.53",
+    "description": "Implantation of internal device, thalamus and basal ganglia S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic computer guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Implantation, electrodes, thalamus [e.g. for interictal measurement of epileptic discharges or stimulation of paresthesia to suppress pain]",
+      "Implantation, semipermeable catheter, thalamus [for continuous chemical therapy]"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.53.SE-JA",
+        "approach": "N/A",
+        "description": "of electrodes [e.g. recording, stimulating] using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.53.SZ-FT",
+        "approach": "N/A",
+        "description": "of semipermeable catheter [e.g. for continuous chemical therapy]",
+        "includes": []
+      },
+      {
+        "code": "1.AE.53.SZ-JA",
+        "approach": "N/A",
+        "description": "of electrodes [e.g. recording, stimulating] using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.54",
+    "description": "Management of internal device, thalamus and basal ganglia",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Adjustment of device, thalamus and basal ganglia",
+      "Irrigation of device, thalamus and basal ganglia"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.54.JA-FT",
+        "approach": "N/A",
+        "description": "of semipermeable catheter",
+        "includes": []
+      },
+      {
+        "code": "1.AE.54.LA-JA",
+        "approach": "N/A",
+        "description": "of electrodes using open (skin incision) approach",
+        "includes": [
+          "Exteriorization",
+          "previously implanted electrodes"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "1.AE.55",
+    "description": "Removal of device, thalamus and basal ganglia S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.55.SZ-FT",
+        "approach": "N/A",
+        "description": "of semipermeable catheter [e.g. for continuous chemical therapy]",
+        "includes": []
+      },
+      {
+        "code": "1.AE.55.SZ-JA",
+        "approach": "N/A",
+        "description": "of electrodes [e.g. recording, stimulating]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.59",
+    "description": "Destruction, thalamus and basal ganglia S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)",
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Pallidotomy",
+      "Subthalamotomy",
+      "Thalamotomy"
+    ],
+    "excludes": [
+      "Stereotactic radiosurgery, thalamus (see 1.AE.27.^^)",
+      "Use of external focused beam \"gamma knife\" radiation, thalamus (see 1.AE.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.59.SZ-X7",
+        "approach": "open approach",
+        "description": "using chemical cautery agent using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.SE-X7",
+        "approach": "burr hole approach",
+        "description": "using chemical cautery agent using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.SZ-GX",
+        "approach": "open approach",
+        "description": "using device NEC using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.SE-GX",
+        "approach": "burr hole approach",
+        "description": "using device NEC using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.SZ-AW",
+        "approach": "open approach",
+        "description": "using radiofrequency probe using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.SE-AW",
+        "approach": "burr hole approach",
+        "description": "using radiofrequency probe using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.59.JA-AZ",
+        "approach": "external approach",
+        "description": "using ultrasound using external approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.85",
+    "description": "Transplant, thalamus and basal ganglia S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Transplant, adrenal medullary tissue [to thalamus region]",
+      "Transplant, fetal substentia nigra tissue [to thalamus region]",
+      "Transplant, mesencephalic tissue [to thalamus region]"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.85.SZ-XX-J",
+        "approach": "N/A",
+        "description": "of fetal mesencephalic tissue using open approach",
+        "includes": []
+      },
+      {
+        "code": "1.AE.85.SZ-XX-L",
+        "approach": "N/A",
+        "description": "of xenograft tissue [e.g. pig cell] using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AE.87",
+    "description": "Excision partial, thalamus and basal ganglia S 4",
+    "note": [
+      "Involves the focal resection of epileptic activity or psychosis [to eradicate condition]"
+    ],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Hypothalamectomy",
+      "Pallidoansectomy",
+      "Thalamectomy"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AE.87.SZ-GX",
+        "approach": "N/A",
+        "description": "using open approach and device NEC",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.27",
+    "description": "Radiation, pituitary region",
+    "note": [
+      "May involve the use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation ."
+    ],
+    "code_also": [],
+    "includes": [
+      "Irradiation, pituitary region",
+      "Radiosurgery (stereotactic), pituitary region",
+      "Radiotherapy, pituitary region",
+      "sella turcica",
+      "Teletherapy, pituitary region",
+      "Therapy, radiation, pituitary region"
+    ],
+    "excludes": [
+      "Destruction (lesion) using radiofrequency probe through cranial incision (see 1.AF.59.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.27.JA",
+        "approach": "N/A",
+        "description": "using external beam [or teletherapy NEC]",
+        "includes": []
+      },
+      {
+        "code": "1.AF.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.52",
+    "description": "Drainage, pituitary region S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Drainage [abscess, hematoma], hypophysis",
+      "Drainage [abscess, hematoma], parasellar region",
+      "Drainage [cyst], Rathke's pouch",
+      "Drainage, craniobuccal pouch",
+      "Drainage, sella turcica"
+    ],
+    "excludes": [
+      "Aspiration and management of a (cyst) reservoir system, pituitary region (see 1.AF.54.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.52.QS",
+        "approach": "N/A",
+        "description": "using transnasal [e.g. transsphenoidal, transethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.52.QS-TS",
+        "approach": "N/A",
+        "description": "using transnasal (e.g. transethmoidal, transsphenoidal) approach and leaving drainage tube [catheter] in situ",
+        "includes": []
+      },
+      {
+        "code": "1.AF.52.SZ",
+        "approach": "N/A",
+        "description": "using transcranial [e.g. transfrontal, pterion or craniectomy NOS] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.52.SZ-TS",
+        "approach": "N/A",
+        "description": "using transcranial (e.g. transfrontal, pterion or craniectomy NOS) approach and leaving drainage tube [catheter] in situ",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.53",
+    "description": "Implantation of internal device, pituitary region S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Placement of reservoir system, pituitary region (for craniopharyngioma cyst)"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.53.SE-QS",
+        "approach": "N/A",
+        "description": "using burr hole approach and reservoir (with tubing) system",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.54",
+    "description": "Management of internal device, pituitary region S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Adjustment of device, pituitary region",
+      "Irrigation of tubing and reservoir system within craniopharyngioma cyst",
+      "Maintenance of reservoir system within craniopharyngioma cyst"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.54.HA-QS",
+        "approach": "N/A",
+        "description": "of reservoir (and tubing) system using percutaneous (aspiration) approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.54.SE-QS",
+        "approach": "N/A",
+        "description": "of reservoir (and tubing) system using burr hole approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.55",
+    "description": "Removal of device, pituitary region S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [],
+    "excludes": [
+      "Replacement of part of reservoir system within craniopharyngioma cyst (see 1.AF.54.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.55.SE-QS",
+        "approach": "N/A",
+        "description": "of reservoir (and tubing) system using burr hole approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.59",
+    "description": "Destruction, pituitary region S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Destruction [lesion], pituitary gland",
+      "sella turcica"
+    ],
+    "excludes": [
+      "Stereotactic radiosurgery, pituitary region (see 1.AF.27.^^)",
+      "Use of external focused beam \"gamma\" knife radiation, pituitary region (see 1.AF.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.59.SZ-X7",
+        "approach": "transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "description": "with chemical cautery agent using transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.QS-X7",
+        "approach": "transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "description": "with chemical cautery agent using transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.SZ-AD",
+        "approach": "transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "description": "with cryoprobe using transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.QS-AD",
+        "approach": "transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "description": "with cryoprobe using transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.SZ-GX",
+        "approach": "transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "description": "with device NEC using transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.QS-GX",
+        "approach": "transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "description": "with device NEC using transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.SZ-AW",
+        "approach": "transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "description": "with radiofrequency probe using transcranial [e.g. transfrontal,\npterion or craniotomy NOS]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.59.QS-AW",
+        "approach": "transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "description": "with radiofrequency probe using transnasal [e.g. transsphenoidal\nor transethmoidal] approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AF.87",
+    "description": "Excision partial, pituitary region S 4",
+    "note": [
+      "May involve intracapsular [neoplasm] debulking with or without concomitant removal of capsule or complete excision of neoplasm.",
+      "1.AG.^^.^^ Therapeutic Interventions on the Pineal Gland"
+    ],
+    "code_also": [
+      "Any concomitant duraplasty (see 1.AA.80.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)",
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Debulking [neoplasm], pituitary region",
+      "Excision, craniopharyngioma",
+      "Hypophysectomy",
+      "Pituitectomy",
+      "Resection [neoplasm] parasellar [may involve extension into cavernous or petrosal sinus]",
+      "Resection, craniopharyngioma",
+      "sella turcica",
+      "that with repair of any resulting sellar defect",
+      "that with repair to prevent CSF leak"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AF.87.LU",
+        "approach": "combined transnasal &\ntranscranial approach",
+        "description": "without tissue using combined transnasal &\ntranscranial approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.DA",
+        "approach": "endoscopic (via sinus)\napproach",
+        "description": "without tissue using endoscopic (via sinus)\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.SZ",
+        "approach": "transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "description": "without tissue using transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.QS",
+        "approach": "open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "description": "without tissue using open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.LU-XX-A",
+        "approach": "combined transnasal &\ntranscranial approach",
+        "description": "with autograft [e.g. fascia lata, fat, muscle or bone] using combined transnasal &\ntranscranial approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.DA-XX-A",
+        "approach": "endoscopic (via sinus)\napproach",
+        "description": "with autograft [e.g. fascia lata, fat, muscle or bone] using endoscopic (via sinus)\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.SZ-XX-A",
+        "approach": "transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "description": "with autograft [e.g. fascia lata, fat, muscle or bone] using transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.QS-XX-A",
+        "approach": "open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "description": "with autograft [e.g. fascia lata, fat, muscle or bone] using open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.LU-XX-G",
+        "approach": "combined transnasal &\ntranscranial approach",
+        "description": "with pedicled flap [e.g. nasoseptal] using combined transnasal &\ntranscranial approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.DA-XX-G",
+        "approach": "endoscopic (via sinus)\napproach",
+        "description": "with pedicled flap [e.g. nasoseptal] using endoscopic (via sinus)\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.SZ-XX-G",
+        "approach": "transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "description": "with pedicled flap [e.g. nasoseptal] using transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.QS-XX-G",
+        "approach": "open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "description": "with pedicled flap [e.g. nasoseptal] using open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.LU-XX-N",
+        "approach": "combined transnasal &\ntranscranial approach",
+        "description": "with synthetic tissue using combined transnasal &\ntranscranial approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.DA-XX-N",
+        "approach": "endoscopic (via sinus)\napproach",
+        "description": "with synthetic tissue using endoscopic (via sinus)\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.SZ-XX-N",
+        "approach": "transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "description": "with synthetic tissue using transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.QS-XX-N",
+        "approach": "open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "description": "with synthetic tissue using open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.LU-XX-Q",
+        "approach": "combined transnasal &\ntranscranial approach",
+        "description": "with combined sources of tissue using combined transnasal &\ntranscranial approach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.DA-XX-Q",
+        "approach": "endoscopic (via sinus)\napproach",
+        "description": "with combined sources of tissue using endoscopic (via sinus)\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.SZ-XX-Q",
+        "approach": "transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "description": "with combined sources of tissue using transcranial [e.g.\ntransfrontal, pterion or\ncraniectomy NEC]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AF.87.QS-XX-Q",
+        "approach": "open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "description": "with combined sources of tissue using open transnasal [e.g.\ntranssphenoidal,\ntransethmoidal] approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AG.27",
+    "description": "Radiation, pineal gland",
+    "note": [
+      "Involves the use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation."
+    ],
+    "code_also": [],
+    "includes": [
+      "Radiosurgery (stereotactic), pineal gland"
+    ],
+    "excludes": [
+      "Fractionated stereotactic radiotherapy, pineal gland (see 1.AN.27.^^)",
+      "Radiation therapy not using focused beam radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AG.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AG.52",
+    "description": "Drainage, pineal gland S 4",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Aspiration, pineal gland (drainage of cyst, abscess, etc.)"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AG.52.HA",
+        "approach": "N/A",
+        "description": "using percutaneous (needle) aspiration",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AG.87",
+    "description": "Excision partial, pineal gland S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)",
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)",
+      "1.AJ.^^.^^ Therapeutic Interventions on the Cerebellum"
+    ],
+    "includes": [
+      "Pinealectomy",
+      "Resection [neoplasm], pineal gland"
+    ],
+    "excludes": [
+      "Cerebellopontine angle (see 1.AK.^^.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AG.87.SZ-GX",
+        "approach": "craniotomy [craniectomy] flap\ntechnique for access",
+        "description": "with device NEC using craniotomy [craniectomy] flap\ntechnique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AG.87.SE-GX",
+        "approach": "burr hole technique for access",
+        "description": "with device NEC using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AG.87.SZ-AG",
+        "approach": "craniotomy [craniectomy] flap\ntechnique for access",
+        "description": "with laser using craniotomy [craniectomy] flap\ntechnique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AG.87.SE-AG",
+        "approach": "burr hole technique for access",
+        "description": "with laser using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AG.87.SZ-AZ",
+        "approach": "craniotomy [craniectomy] flap\ntechnique for access",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using craniotomy [craniectomy] flap\ntechnique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AG.87.SE-AZ",
+        "approach": "burr hole technique for access",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using burr hole technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AJ.27",
+    "description": "Radiation, cerebellum",
+    "note": [
+      "Involves the use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation."
+    ],
+    "code_also": [],
+    "includes": [
+      "Radiosurgery (stereotactic), cerebellum"
+    ],
+    "excludes": [
+      "Fractionated stereotactic radiotherapy, cerebellum (see 1.AN.27.^^)",
+      "Radiation therapy not using focused beam radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AJ.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AJ.53",
+    "description": "Implantation of internal device, cerebellum S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Implantation, electrode, cerebellum"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AJ.53.SE-JA",
+        "approach": "N/A",
+        "description": "of electrode using open approach with burr hole technique",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AJ.55",
+    "description": "Removal of device, cerebellum S 4",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AJ.55.SE-JA",
+        "approach": "N/A",
+        "description": "of electrode using open approach with burr hole technique",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AJ.87",
+    "description": "Excision partial, cerebellum S 4",
+    "note": [
+      "Use this code for posterior fossa neoplasm arising in but not extending beyond the cerebellum. See exclusion notes to determine the most",
+      "appropriate code when multiple sites are involved. (Use only one code to identify a posterior fossa resection. The order of precedence is:",
+      "brain stem involvement, ventricle involvement, cerebellopontine angle involvement, cerebellum involvement.)",
+      "1.AK.^^.^^ Therapeutic Interventions on the Cerebellopontine Angle"
+    ],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)",
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Corticectomy, cerebellar",
+      "Debulking [neoplasm], cerebellum",
+      "Resection [neoplasm, cyst], cerebellum",
+      "Resection, posterior fossa [neoplasm], cerebellum"
+    ],
+    "excludes": [
+      "Resection of posterior fossa neoplasm involving cerebellum but extending into 4th ventricle (see 1.AC.87.^^)",
+      "Resection of posterior fossa neoplasm involving cerebellum but extending into brain stem (see 1.AP.87.^^)",
+      "Resection of posterior fossa neoplasm involving cerebellum but extending into cerebellopontine angle (see 1.AK.87.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AJ.87.DA-GX",
+        "approach": "endoscopic approach",
+        "description": "with device NEC using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SZ-GX",
+        "approach": "open [craniotomy flap]\napproach",
+        "description": "with device NEC using open [craniotomy flap]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SE-GX",
+        "approach": "burr hole technique",
+        "description": "with device NEC using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.DA-AG",
+        "approach": "endoscopic approach",
+        "description": "with laser using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SZ-AG",
+        "approach": "open [craniotomy flap]\napproach",
+        "description": "with laser using open [craniotomy flap]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SE-AG",
+        "approach": "burr hole technique",
+        "description": "with laser using burr hole technique",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.DA-AZ",
+        "approach": "endoscopic approach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SZ-AZ",
+        "approach": "open [craniotomy flap]\napproach",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using open [craniotomy flap]\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AJ.87.SE-AZ",
+        "approach": "burr hole technique",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using burr hole technique",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AK.87",
+    "description": "Excision partial, cerebellopontine angle S 4",
+    "note": [
+      "Use this code for posterior fossa neoplasm arising or extending into the cerebellopontine angle. (This may involve neuromas arising from",
+      "the vestibular [or facial] nerve and extending into the cerebellopontine angle). See exclusion notes to determine the most appropriate code",
+      "when multiple sites are involved. (Use only one code to identify a posterior fossa resection. The order of precedence is: brain stem",
+      "involvement, ventricle involvement, cerebellopontine angle involvement, cerebellum involvement.)",
+      "1.AN.^^.^^ Therapeutic Interventions on the Brain"
+    ],
+    "code_also": [
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Debulking [neoplasm], cerebellopontine angle",
+      "Resection [neoplasm], cerebellopontine angle",
+      "Resection, posterior fossa [neoplasm], cerebellopontine angle"
+    ],
+    "excludes": [
+      "Resection of posterior fossa neoplasm involving cerebellopontine angle but extending into brain stem (see 1.AP.87.^^)",
+      "Resection of posterior fossa neoplasm involving cerebellopontine angle but extending into ventricle (see 1.AC.87.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AK.87.SZ-GX",
+        "approach": "open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "description": "with device NEC using open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "includes": []
+      },
+      {
+        "code": "1.AK.87.QQ-GX",
+        "approach": "open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "description": "with device NEC using open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "includes": []
+      },
+      {
+        "code": "1.AK.87.SZ-AG",
+        "approach": "open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "description": "with laser using open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "includes": []
+      },
+      {
+        "code": "1.AK.87.QQ-AG",
+        "approach": "open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "description": "with laser using open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "includes": []
+      },
+      {
+        "code": "1.AK.87.SZ-AZ",
+        "approach": "open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using open craniotomy [or\ncraniectomy] approach [e.g.\nsuboccipital, midfossa,\ntemporal]",
+        "includes": []
+      },
+      {
+        "code": "1.AK.87.QQ-AZ",
+        "approach": "open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using open translabyrinthine\napproach [with or without\nadditional craniotomy flap]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.09",
+    "description": "Stimulation, brain L 87",
+    "note": [],
+    "code_also": [],
+    "includes": [
+      "Activation, stimulation system (previously) implanted in brain/ cerebellum",
+      "Stimulation, lobes of brain (e.g. that for pain control)",
+      "Stimulation, transcranial magnetic (TMS)",
+      "Therapy, electroconvulsive",
+      "Therapy, electroshock"
+    ],
+    "excludes": [
+      "Implantation of electrodes, within brain (see 1.AN.53.^^)",
+      "Implantation of electrodes, within cerebellum (see 1.AJ.53.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "ZU"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.09.HA-X7",
+        "approach": "N/A",
+        "description": "using percutaneous chemical stimulation",
+        "includes": []
+      },
+      {
+        "code": "1.AN.09.JA-DV",
+        "approach": "N/A",
+        "description": "using external electrical stimulation (for shock or convulsion)",
+        "includes": []
+      },
+      {
+        "code": "1.AN.09.JA-ED",
+        "approach": "N/A",
+        "description": "using external manual activation (of implant)",
+        "includes": []
+      },
+      {
+        "code": "1.AN.09.JA-LZ",
+        "approach": "N/A",
+        "description": "using external application of magnetic coil (for TMS)",
+        "includes": []
+      },
+      {
+        "code": "1.AN.09.JA-QQ",
+        "approach": "N/A",
+        "description": "using remote radio transmitter activation (of implant)",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.26",
+    "description": "Brachytherapy, brain S 35 L 1",
+    "note": [
+      "There are typically two distinct phases required to complete the process of brachytherapy. The first phase involves the insertion of non-",
+      "radioactive applicators or conduits (e.g. hollow needles, catheters, stents, etc.) that receive or transmit the radioactive material into the",
+      "body. The second phase involves the loading of the radioactive material (e.g. seeds, pellets, wires, etc.) into the applicator or conduit."
+    ],
+    "code_also": [
+      "Any concomitant implantation of brachytherapy applicators or conduits (e.g. needles, catheters) to gain access to treatment site (see",
+      "1.AN.53.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Endocurietherapy, brain",
+      "Implantation of radioactive material, brain (any site)",
+      "that using interstitial radiation implants (e.g. iodine 125, iridium 192)"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "PM",
+          "TM"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.26.HA",
+        "approach": "N/A",
+        "description": "using percutaneous (transcatheter or transneedle) approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.26.SZ",
+        "approach": "N/A",
+        "description": "using craniotomy (or craniectomy) approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.27",
+    "description": "Radiation, brain",
+    "note": [
+      "May involve use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation."
+    ],
+    "code_also": [],
+    "includes": [
+      "Fractionated stereotactic radiotherapy, brain (any site)",
+      "Irradiation, brain",
+      "Radiosurgery (stereotactic), brain",
+      "Radiotherapy, brain",
+      "Teletherapy, brain",
+      "Therapy, radiation, brain"
+    ],
+    "excludes": [
+      "Destruction (lesion) using radiofrequency probe through a cranial incision (see 1.AN.59.^^)",
+      "Intracranial radiosurgery for arteriovenous malformation (AVM) of the brain (see 1.JW.27.^^)",
+      "Radiosurgery, brain stem (see 1.AP.27.^^)",
+      "Radiosurgery, cerebellum (see 1.AJ.27.^^)",
+      "Radiosurgery, pineal gland (see 1.AG.27.^^)",
+      "Radiosurgery, pituitary region (see 1.AF.27.^^)",
+      "Radiosurgery, thalamus (see 1.AE.27.^^)",
+      "Radiosurgery, ventricles (see 1.AC.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.27.JA",
+        "approach": "N/A",
+        "description": "using external beam [for teletherapy NEC]",
+        "includes": []
+      },
+      {
+        "code": "1.AN.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.35",
+    "description": "Pharmacotherapy (local), brain",
+    "note": [],
+    "code_also": [
+      "Any insertion of catheter for infusion (see 1.AN.53.^^)"
+    ],
+    "includes": [
+      "Instillation, pharmaceutical agent(s), brain",
+      "that by previously inserted catheter",
+      "that into brain cyst or tumor"
+    ],
+    "excludes": [
+      "Irrigation of previously inserted catheter (see 1.AN.54.^^)",
+      "Systemic pharmacotherapy (see 1.ZZ.35.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.35.HH-M0",
+        "approach": "N/A",
+        "description": "using antineoplastic agent and percutaneous transcatheter approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.35.SZ-M1",
+        "approach": "N/A",
+        "description": "using alkylating agent [e.g. carmustine] and open approach with craniotomy flap technique",
+        "includes": [
+          "Brain wafer (implantable) chemotherapy"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "1.AN.52",
+    "description": "Drainage, brain S 5 L 1",
+    "note": [],
+    "code_also": [
+      "Any robotic telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Aspiration [abscess, cyst, hematoma], brain",
+      "Marsupialization [cyst], brain"
+    ],
+    "excludes": [
+      "Aspiration and management of (cyst) reservoir sytem, pituitary region (see 1.AF.54.^^)",
+      "Debridement [abscess, hematoma], brain (see 1.AN.87.^^)",
+      "Enucleation [cyst], brain (see 1.AN.87.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A",
+          "R"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.52.DA",
+        "approach": "endoscopic approach",
+        "description": "drainage alone [without catheter in situ] using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.52.SE",
+        "approach": "burr hole approach",
+        "description": "drainage alone [without catheter in situ] using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.52.SZ",
+        "approach": "open craniotomy flap\ntechnique",
+        "description": "drainage alone [without catheter in situ] using open craniotomy flap\ntechnique",
+        "includes": []
+      },
+      {
+        "code": "1.AN.52.DA-TS",
+        "approach": "endoscopic approach",
+        "description": "leaving drainage tube [catheter] in situ using endoscopic approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.52.SE-TS",
+        "approach": "burr hole approach",
+        "description": "leaving drainage tube [catheter] in situ using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.52.SZ-TS",
+        "approach": "open craniotomy flap\ntechnique",
+        "description": "leaving drainage tube [catheter] in situ using open craniotomy flap\ntechnique",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.53",
+    "description": "Implantation of internal device, brain S 4 L 1",
+    "note": [],
+    "code_also": [
+      "Any concomitant loading of brachytherapy applicator (see 1.AN.26.^^)",
+      "Any intraoperative stereotactic or computer guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Implantation, brachytherapy applicator, brain (any site)",
+      "Implantation, catheter, brain [for chemical palliative infusion e.g. Ommaya reservoir]",
+      "Implantation, electrode, brain",
+      "Implantation, electrode, subdural",
+      "Implantation, pressure measuring/ monitoring device, intraparenchymal"
+    ],
+    "excludes": [
+      "Implantation, catheter, spinal canal and meninges (see 1.AX.53.^^)",
+      "Implantation, catheter, ventricles of brain (see 1.AC.53.^^)",
+      "Implantation, pressure measuring device, intraventricular (see 1.AC.53.^^)",
+      "Insertion of electrodes into brain for (diagnostic) electrophysiological measurement (see 2.AN.24.^^)",
+      "Insertion of reservoir system, pituitary region (for craniopharyngioma cyst) (see 1.AF.53.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.53.SE-FT",
+        "approach": "burr hole technique for access",
+        "description": "of [semipermeable] catheter [e.g. for chemical palliative infusion] using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.53.SZ-FT",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "of [semipermeable] catheter [e.g. for chemical palliative infusion] using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.53.SE-EM",
+        "approach": "burr hole technique for access",
+        "description": "of brachytherapy applicator using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.53.SZ-EM",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "of brachytherapy applicator using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.53.SE-JA",
+        "approach": "burr hole technique for access",
+        "description": "of electrodes [e.g. recording, stimulating] using burr hole technique for access",
+        "includes": [
+          "Includes:",
+          "Epidural motor cortex",
+          "stimulation (MCS) electrodes"
+        ]
+      },
+      {
+        "code": "1.AN.53.SZ-JA",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "of electrodes [e.g. recording, stimulating] using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": [
+          "Includes:",
+          "Epidural motor cortex",
+          "stimulation (MCS) electrodes"
+        ]
+      },
+      {
+        "code": "1.AN.53.SE-PL",
+        "approach": "burr hole technique for access",
+        "description": "of pressure measuring/ monitoring device using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.53.SZ-PL",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "of pressure measuring/ monitoring device using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.54",
+    "description": "Management of internal device, brain S 4 L 1",
+    "note": [],
+    "code_also": [],
+    "includes": [],
+    "excludes": [
+      "Aspiration and maintenance of reservoir system, pituitary region (for craniopharyngioma cyst) (see 1.AF.54.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.54.SE-JA",
+        "approach": "using burr hole approach",
+        "description": "of electrodes [e.g. recording, stimulating] using using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.54.SZ-JA",
+        "approach": "using craniotomy/craniectomy\napproach",
+        "description": "of electrodes [e.g. recording, stimulating] using using craniotomy/craniectomy\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.54.JA-PL",
+        "approach": "using external approach",
+        "description": "of pressure measuring/monitoring device using using external approach",
+        "includes": [
+          "Includes:",
+          "Adjustment by external",
+          "magnetic impulse"
+        ]
+      },
+      {
+        "code": "1.AN.54.SE-PL",
+        "approach": "using burr hole approach",
+        "description": "of pressure measuring/monitoring device using using burr hole approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.54.SZ-PL",
+        "approach": "using craniotomy/craniectomy\napproach",
+        "description": "of pressure measuring/monitoring device using using craniotomy/craniectomy\napproach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.54.JA-FT",
+        "approach": "using external approach",
+        "description": "of semipermeable catheter using using external approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.55",
+    "description": "Removal of device, brain S 4 L 1",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [],
+    "excludes": [
+      "Removal of reservoir system, pituitary region (for craniopharyngioma cyst) (see 1.AF.55.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.55.SE-FT",
+        "approach": "burr hole technique for access",
+        "description": "of [semipermeable] catheter [e.g. for chemical palliative infusion] using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SZ-FT",
+        "approach": "craniotomy or craniectomy\n[flap] technique for access",
+        "description": "of [semipermeable] catheter [e.g. for chemical palliative infusion] using craniotomy or craniectomy\n[flap] technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SE-JA",
+        "approach": "burr hole technique for access",
+        "description": "of electrodes [e.g. recording, stimulating] using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SZ-JA",
+        "approach": "craniotomy or craniectomy\n[flap] technique for access",
+        "description": "of electrodes [e.g. recording, stimulating] using craniotomy or craniectomy\n[flap] technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SE-PL",
+        "approach": "burr hole technique for access",
+        "description": "of pressure measuring/ monitoring device using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SZ-PL",
+        "approach": "craniotomy or craniectomy\n[flap] technique for access",
+        "description": "of pressure measuring/ monitoring device using craniotomy or craniectomy\n[flap] technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SE-EB",
+        "approach": "burr hole technique for access",
+        "description": "of radioactive material using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.55.SZ-EB",
+        "approach": "craniotomy or craniectomy\n[flap] technique for access",
+        "description": "of radioactive material using craniotomy or craniectomy\n[flap] technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.56",
+    "description": "Removal of foreign body, brain S 4 L 1",
+    "note": [
+      "May involve aspiration and debridement as necessary with removal of foreign body"
+    ],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Removal of foreign body, intracranium"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.56.SZ",
+        "approach": "N/A",
+        "description": "using open approach with craniotomy [craniectomy] flap technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.59",
+    "description": "Destruction, brain S 4 L 1",
+    "note": [],
+    "code_also": [
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)"
+    ],
+    "includes": [
+      "Amygdalohippocampotomy",
+      "Callosotomy",
+      "Cingulotomy",
+      "Leucotomy, limbic [fronto medial]",
+      "Lobotomy",
+      "Psychosurgery NOS"
+    ],
+    "excludes": [
+      "Stereotactic radiosurgery, brain [lobes] (see 1.AN.27.^^)",
+      "that by radiosurgery (or gamma \"knife\") technique (see 1.AN.27.^^)",
+      "Tractotomy (see 1.AP.59.^^)",
+      "Tractotomy, mesencephalic (see 1.AP.59.^^)",
+      "Use of external focused beam (or \"gamma\" knife) radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.59.SE-X7",
+        "approach": "burr hole technique for access",
+        "description": "with chemical cautery [e.g. alcohol] using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.59.SZ-X7",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with chemical cautery [e.g. alcohol] using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.59.SE-GX",
+        "approach": "burr hole technique for access",
+        "description": "with device NEC using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.59.SZ-GX",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with device NEC using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.59.SE-AG",
+        "approach": "burr hole technique for access",
+        "description": "with laser using burr hole technique for access",
+        "includes": [
+          "Includes:",
+          "Laser interstitial thermal therapy",
+          "[LITT]"
+        ]
+      },
+      {
+        "code": "1.AN.59.SZ-AG",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with laser using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": [
+          "Includes:",
+          "Laser interstitial thermal therapy",
+          "[LITT]"
+        ]
+      },
+      {
+        "code": "1.AN.59.SE-AW",
+        "approach": "burr hole technique for access",
+        "description": "with radiofrequency probe using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.59.SZ-AW",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with radiofrequency probe using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.70",
+    "description": "Incision NOS, brain",
+    "note": [],
+    "code_also": [],
+    "includes": [],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.70.JA-AZ",
+        "approach": "N/A",
+        "description": "using transcranial focused ultrasonic pulse",
+        "includes": [
+          "Opening blood brain barrier by ultrasonic pulse disruption"
+        ]
+      },
+      {
+        "code": "1.AN.70.LA",
+        "approach": "N/A",
+        "description": "using open approach",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.73",
+    "description": "Reduction, brain S 4",
+    "note": [
+      "May involve excision of encephalocele [or replacement of vital neural tissue within brain, wherever possible] and repair of the dura."
+    ],
+    "code_also": [
+      "Any concomitant cranioplasty using bone graft or flap (see 1.EA.80.^^)"
+    ],
+    "includes": [
+      "Closure, encephalocele, brain",
+      "Repair, encephalocele, brain"
+    ],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.73.QP",
+        "approach": "N/A",
+        "description": "using combined transcranial and transnasal approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.73.QR",
+        "approach": "N/A",
+        "description": "using transmastoid approach",
+        "includes": []
+      },
+      {
+        "code": "1.AN.73.SZ",
+        "approach": "N/A",
+        "description": "using open approach with craniotomy [craniectomy] flap technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AN.87",
+    "description": "Excision partial, brain S 6 L 1",
+    "note": [],
+    "code_also": [
+      "Any concomitant duraplasty (patch grafting) (see 1.AA.80.^^)",
+      "Any intraoperative stereotactic guidance (see 3.AN.94.^^)",
+      "Any robotic assisted telemanipulation of tools (see 7.SF.14.^^)"
+    ],
+    "includes": [
+      "Amygdalohippocampectomy",
+      "Debridement, brain",
+      "Debulking [neoplasm], brain",
+      "Hemispherectomy, brain",
+      "Lobectomy, brain",
+      "Lysis, cortical [adhesions]",
+      "Resection [cyst, hematoma, neoplasm], brain"
+    ],
+    "excludes": [
+      "Excision [neoplasm], brain with orbital osteotomy, transoral maxillectomy, or craniectomy requiring concomitant craniofacial reconstruction",
+      "(see 1.EA.92.^^)",
+      "Resection [neoplasm], brain involving cranial base (see 1.EA.92.^^)",
+      "Resection [neoplasm], cranial base (see 1.EA.92.^^)",
+      "Resection, craniopharyngioma (see 1.AF.87.^^)",
+      "that involving cranium and requiring a radical excision of cranium and neural tissue to eradicate neoplasm (see 1.EA.92.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A",
+          "R",
+          "S"
+        ]
+      },
+      "L": {
+        "type": "Optional",
+        "codes": [
+          "F",
+          "M",
+          "O",
+          "P",
+          "T",
+          "Z"
+        ]
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AN.87.SE-GX",
+        "approach": "burr hole technique for access",
+        "description": "with device NEC using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.87.SZ-GX",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with device NEC using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.87.SE-AG",
+        "approach": "burr hole technique for access",
+        "description": "with laser using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.87.SZ-AG",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with laser using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.87.SE-AZ",
+        "approach": "burr hole technique for access",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using burr hole technique for access",
+        "includes": []
+      },
+      {
+        "code": "1.AN.87.SZ-AZ",
+        "approach": "craniotomy [or craniectomy]\nflap technique for access",
+        "description": "with ultrasonic aspirator [e.g. CUSA] using craniotomy [or craniectomy]\nflap technique for access",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AP.09",
+    "description": "Stimulation, brain stem",
+    "note": [],
+    "code_also": [],
+    "includes": [],
+    "excludes": [],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AP.09.JA-ED",
+        "approach": "N/A",
+        "description": "using external manual activation",
+        "includes": []
+      },
+      {
+        "code": "1.AP.09.JA-QQ",
+        "approach": "N/A",
+        "description": "using remote radiotransmitter",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AP.27",
+    "description": "Radiation, brain stem",
+    "note": [
+      "Involves the use of a stereotactical frame for positioning during delivery of external focused beam (or gamma \"knife\") radiation."
+    ],
+    "code_also": [],
+    "includes": [
+      "Radiosurgery, brain stem"
+    ],
+    "excludes": [
+      "Destruction (lesion) using radiofrequency probe through cranial incision (see 1.AP.59.^^)",
+      "Fractionated stereotactic radiotherapy, brain stem (see 1.AN.27.^^)",
+      "Radiation therapy not using focused beam radiation (see 1.AN.27.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "N/A",
+        "codes": []
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AP.27.JX",
+        "approach": "N/A",
+        "description": "using focused beam [e.g. gamma knife, cyber knife stereotactic radiosurgery]",
+        "includes": []
+      }
+    ]
+  },
+  {
+    "code": "1.AP.52",
+    "description": "Drainage, brain stem S 4",
+    "note": [],
+    "code_also": [
+      "Any concomitant removal of old syringo shunt system of brain stem (see 1.AP.55.^^)"
+    ],
+    "includes": [
+      "Replacement of entire shunt system, brain stem",
+      "Shunt, syringoatrial, syringosubarachnoid, syringopleural, syringoperitoneal",
+      "Shunt, syrinx [for continuous drainage]"
+    ],
+    "excludes": [
+      "Partial \"revision\" for maintenance of syringo shunt system (see 1.AP.54.^^)",
+      "Puncture, subarachnoid (for temporary drainage), using drainage catheter to skin (see 1.AB.52.^^)"
+    ],
+    "omit_code": [],
+    "attributes": {
+      "S": {
+        "type": "Optional",
+        "codes": [
+          "A"
+        ]
+      },
+      "L": {
+        "type": "N/A",
+        "codes": []
+      },
+      "E": {
+        "type": "N/A",
+        "codes": []
+      }
+    },
+    "qualifiers": [
+      {
+        "code": "1.AP.52.ME-SJ",
+        "approach": "N/A",
+        "description": "using shunt system terminating in abdominal cavity [e.g. syringoperitoneal]",
+        "includes": []
+      },
+      {
+        "code": "1.AP.52.MF-SJ",
+        "approach": "N/A",
+        "description": "using shunt system terminating in circulatory system [e.g. syringoatrial]",
+        "includes": []
+      },
+      {
+        "code": "1.AP.52.MJ-SJ",
+        "approach": "N/A",
+        "description": "using shunt system terminating in head and neck [e.g. syringosubarachnoid]",
+        "includes": []
+      },
+      {
+        "code": "1.AP.52.MQ-SJ",
+        "approach": "N/A",
+        "description": "using shunt system terminating in thoracic cavity [e.g. syringopleural]",
+        "includes": []
+      }
+    ]
+  }
+]
