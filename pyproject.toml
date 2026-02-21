@@ -1,0 +1,27 @@
+[project]
+name = "cci-code-pipeline"
+version = "0.1.0"
+description = "Extract and classify Canadian CCI medical codes from PDF"
+requires-python = ">=3.10"
+dependencies = [
+    "pdfplumber>=0.11.0",
+    "pydantic>=2.0",
+    "click>=8.0",
+    "python-dotenv>=1.0",
+    "tenacity>=8.0",
+    "loguru>=0.7",
+]
+
+[project.optional-dependencies]
+llm = [
+    "openai>=1.0",
+    "google-generativeai>=0.3",
+    "anthropic>=0.18",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+cci = "cli:main"
