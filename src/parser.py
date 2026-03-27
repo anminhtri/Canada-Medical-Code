@@ -1,8 +1,9 @@
-import re
 import json
+import re
+from typing import Any
 
 
-def is_garbage(line):
+def is_garbage(line: str) -> bool:
     stripped = line.strip()
     if not stripped:
         return True
@@ -22,35 +23,30 @@ def is_garbage(line):
         return True
     if stripped.startswith("S ") and "Optional" in stripped:
         return True
-    if "Attribute Reference Description" in stripped:
-        return True
-    return False
+    return "Attribute Reference Description" in stripped
 
 
-def parse_pdf_data(pages_data):
-    entries = []
+def parse_pdf_data(pages_data: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
 
-    # Allow optional space after ^^
-    cci_pattern = (
-        r"^\s*(\d+\.[A-Z]{2}\.\d{2})\.\^\^\s*(.*?)(?:\s+(S\s+\d+|L\s+\d+|E\s+\d+))?\s*$"
-    )
+    cci_pattern = r"^\s*(\d+\.[A-Z]{2}\.\d{2})\.\^\^\s*(.*?)(?:\s+(S\s+\d+|L\s+\d+|E\s+\d+))?\s*$"
     qualifier_pattern = r"^\s*(\d+\.[A-Z]{2}\.\d{2}\.[A-Za-z0-9\-]+)\s+(.*?)\s*$"
 
     all_text = ""
-    all_tables = []
+    all_tables: list[list[list[str | None]]] = []
 
     for page in pages_data:
-        text = page["text"]
-        lines = [l for l in text.split("\n") if not is_garbage(l)]
-        all_text += "\n".join(lines) + "\n"
+        text: str = page.get("text", "")
+        extracted_lines = [txt_line for txt_line in text.split("\n") if not is_garbage(txt_line)]
+        all_text += "\n".join(extracted_lines) + "\n"
         if page.get("tables"):
             all_tables.extend(page["tables"])
 
     lines = all_text.split("\n")
 
-    current_entry = None
-    in_qualifiers = False
-    current_section = None
+    current_entry: dict[str, Any] | None = None
+    in_qualifiers: bool = False
+    current_section: str | None = None
 
     for line in lines:
         if not line.strip():
@@ -60,11 +56,8 @@ def parse_pdf_data(pages_data):
         if cci_match:
             code = cci_match.group(1)
 
-            # If we already have this code being actively parsed or it exists,
-            # this is likely a table header repeating the code.
             existing = next((e for e in entries if e["code"] == code), None)
             if existing:
-                # We resume parsing on the existing entry, but clear section to drop garbage text
                 current_entry = existing
                 current_section = None
                 in_qualifiers = False
@@ -112,7 +105,6 @@ def parse_pdf_data(pages_data):
             q_code = q_match.group(1)
             q_desc = q_match.group(2).strip()
 
-            # Ensure it's not already in the qualifiers array
             if not any(q["code"] == q_code for q in current_entry["qualifiers"]):
                 current_entry["qualifiers"].append(
                     {
@@ -139,23 +131,19 @@ def parse_pdf_data(pages_data):
                         current_entry["qualifiers"][-1]["includes"].append(content)
                     current_section = "qualifiers_linear"
                 else:
-                    # Ignore other sections inside qualifiers (rare, or just table noise)
                     current_section = None
             else:
                 current_section = sec_name
                 if content:
-                    current_entry[current_section].append(content)
+                    current_entry[sec_name].append(content)
             continue
 
         stripped = line.strip()
 
         if in_qualifiers and current_section == "qualifiers_linear":
-            if len(current_entry["qualifiers"]) > 0:
-                if len(current_entry["qualifiers"][-1]["includes"]) > 0:
-                    current_entry["qualifiers"][-1]["includes"][-1] += " " + stripped
+            if len(current_entry["qualifiers"]) > 0 and len(current_entry["qualifiers"][-1]["includes"]) > 0:
+                current_entry["qualifiers"][-1]["includes"][-1] += " " + stripped
         elif current_section and not in_qualifiers:
-            # Check if this text looks like a matrix header or qualifier, if so, we probably shouldn't append it
-            # This prevents table data from leaking into 'includes' before we process the tables.
             if (
                 re.search(r"^\s*\d+\.[A-Z]{2}\.\d{2}\.[A-Za-z0-9\-]+", stripped)
                 or "percutaneous" in stripped
@@ -164,9 +152,10 @@ def parse_pdf_data(pages_data):
                 )
             ):
                 continue
-            current_entry[current_section].append(stripped)
+            
+            key: str = current_section
+            current_entry[key].append(stripped)
 
-    # Process Tables
     for t in all_tables:
         if not t or not t[0] or not t[0][0]:
             continue
@@ -188,10 +177,10 @@ def parse_pdf_data(pages_data):
                         cell = row[c_idx]
                         if not cell:
                             continue
-                        lines = [l.strip() for l in cell.split("\n") if l.strip()]
-                        if not lines:
+                        cell_lines = [cl.strip() for cl in cell.split("\n") if cl.strip()]
+                        if not cell_lines:
                             continue
-                        q_code = lines[0]
+                        q_code = cell_lines[0]
                         if not re.match(
                             r"^\d+\.[A-Z]{2}\.\d{2}\.[A-Za-z0-9\-]+$", q_code
                         ):
@@ -201,20 +190,18 @@ def parse_pdf_data(pages_data):
                             q for q in entry["qualifiers"] if q["code"] != q_code
                         ]
 
-                        includes = []
+                        includes: list[str] = []
                         is_includes = False
-                        for l in lines[1:]:
-                            if l.lower().startswith("includes:"):
+                        for c_line in cell_lines[1:]:
+                            if c_line.lower().startswith("includes:"):
                                 is_includes = True
                                 continue
                             if is_includes:
-                                # Strip bullets, asterisks, and their mojibake equivalents
-                                l = l.lstrip("•*- â€¢").strip()
-                                l = l.replace("\u00e2\u20ac\u00a2", "")
-                                if l:
-                                    includes.append(l)
+                                clean_line = c_line.lstrip("•*- â€¢").strip()
+                                clean_line = clean_line.replace("\u00e2\u20ac\u00a2", "")
+                                if clean_line:
+                                    includes.append(clean_line)
 
-                        # Compute full description matching ground truth
                         app = (
                             approaches[c_idx - 1]
                             if c_idx - 1 < len(approaches)
@@ -230,12 +217,11 @@ def parse_pdf_data(pages_data):
                                 "includes": includes,
                             }
                         )
-    # Clean up top-level arrays from leaking table parts
+
     for entry in entries:
         for sec in ["includes", "excludes", "note", "code_also"]:
-            cleaned = []
+            cleaned: list[str] = []
             for item in entry[sec]:
-                # If the item starts looking like a matrix header or qualifier, we drop it
                 if re.match(r"^\s*\d+\.[A-Z]{2}\.\d{2}\.\^\^", item):
                     continue
                 if re.search(
@@ -250,7 +236,6 @@ def parse_pdf_data(pages_data):
                     continue
                 if "percutaneous" in item and "approach" in item:
                     continue
-                # if contains qualifier code, ignore
                 if re.search(r"\d+\.[A-Z]{2}\.\d{2}\.[A-Z0-9\-]+", item):
                     continue
                 if item.strip() == "Includes:":
@@ -258,7 +243,6 @@ def parse_pdf_data(pages_data):
                 if item.strip().startswith(("•", "â€¢", "\u00e2\u20ac\u00a2")):
                     continue
                 item = item.replace("â€¢", "").replace("\u00e2\u20ac\u00a2", "").strip()
-                # Filter out raw text spills from table cells
                 leak_keywords = [
                     "retaplase",
                     "tenecteplase",
@@ -278,9 +262,8 @@ def parse_pdf_data(pages_data):
 
 if __name__ == "__main__":
 
-    with open("cache/raw_text_68_69.json", "r", encoding="utf-8") as file:
+    with open("cache/raw_text_68_69.json", encoding="utf-8") as file:
         pages_data = json.load(file)
-    # Use the same page range the user tested: 68-100
     res = parse_pdf_data(pages_data)
     with open("CCICodeExample(68-69)_output.json", "w", encoding="utf-8") as f:
         json.dump(res, f, indent=2)

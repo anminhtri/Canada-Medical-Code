@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from typing import List, Dict
 
 import pdfplumber
 from loguru import logger
@@ -16,17 +15,17 @@ def get_cache_path(start_page: int, end_page: int) -> Path:
     return CACHE_DIR / f"raw_text_{start_page}_{end_page}.json"
 
 
-def extract_pages(start_page: int, end_page: int, pdf_path: str | Path) -> List[Dict]:
+def extract_pages(start_page: int, end_page: int, pdf_path: str | Path) -> list[dict[str, str | int | object]]:
     cache_path = get_cache_path(start_page, end_page)
 
     if cache_path.exists():
         logger.info(f"Loading cached text from {cache_path}")
-        with open(cache_path, "r", encoding="utf-8") as f:
+        with open(cache_path, encoding="utf-8") as f:
             return json.load(f)
 
     logger.info(f"Extracting text from {pdf_path} (pages {start_page}-{end_page})")
 
-    extracted_pages = []
+    extracted_pages: list[dict[str, str | int | object]] = []
     with pdfplumber.open(pdf_path) as pdf:
         total_pages = len(pdf.pages)
 
