@@ -22,7 +22,34 @@ llm = [
 dev = [
     "pytest>=8.0",
     "pytest-cov>=4.0",
+    "ruff>=0.4.0",
+    "pyright>=1.1.350",
+    "pre-commit>=3.6.0",
 ]
 
 [project.scripts]
 cci = "cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "UP",
+    "B",
+    "C4",
+    "SIM",
+]
+
+ignore = [
+    "E501"
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
